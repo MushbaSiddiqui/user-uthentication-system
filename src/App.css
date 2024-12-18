@@ -1,0 +1,108 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient( to bottom, #e1edf2af, #2897e164);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+  background: #fff;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  height:fit-content;
+  padding: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.form-container:hover {
+  transform: scale(1.02);
+}
+
+/* Form Heading */
+.form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 4px #2575fc;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  background: #2575fc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #1e60c7;
+}
+
+/* Links */
+p a {
+  color: #2575fc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+p a:hover {
+  color: #1e60c7;
+}
+
+/* Home Page */
+.home-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.home-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.home-container button {
+  padding: 10px 20px;
+}
